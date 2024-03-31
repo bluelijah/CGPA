@@ -3,7 +3,7 @@ L = list(map(str, input("\nEnter the course you are taking, followed by the grad
 Grades = L[1::2]
 Amount = len(Grades)
 if len(L) < 2:
-    print("\nThis is an invalid input.")
+    print("\nThis is an invalid input.\n")
 elif len(L) >= 2:
     GradesToInt = [eval(i) for i in Grades]
     Total = 0
